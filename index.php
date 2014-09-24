@@ -9,13 +9,24 @@ $uname = $_POST['username'];
 $pword = $_POST['password'];
 $email = $_POST['email'];
 $fname = $_POST['firstname'];
+$lname = $_POST['lastname'];
+
+strip_tags($uname);
+strip_tags($pword);
+strip_tags($email);
+strip_tags($fname);
+strip_tags($lname);
+
+
 
 $hash_pword = cryptPass($pword);
 
 
-mysqli_query($connection,"INSERT INTO users.info (username, password, email, firstname)
-VALUES ('$uname', '$hash_pword', '$email', '$fname')");
+mysqli_query($connection,"INSERT INTO info (username, password, email, firstname, lastname)
+VALUES ('$uname', '$hash_pword', '$email', '$fname', '$lname')");
 }
+
+email($email);
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"

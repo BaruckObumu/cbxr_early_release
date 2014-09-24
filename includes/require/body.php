@@ -2,8 +2,10 @@
 		<div id="header-wrapper">
 			<div class="mask">
 				<div id="logo">
-					<h1 style="font-family: 'VT323', Arial;font-size: 2.7em; margin: 0;padding: 0; color: #fff;">
-					[Chat<span class="black">Boxer</span>] <span class="smaller">(early release edition)</span></h1>
+					<a style="text-decoration: none;font-family: 'VT323', Arial;font-size: 1.4em; margin: 0;padding: 0; color: #fff;" href="index.php">
+					<h1 style="margin: 0; padding: 0;">
+					[Chat<span class="black">Boxer</span>] <span class="smaller">(beta release edition)</span></h1>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -17,6 +19,7 @@
 						<input type="password" placeholder="password" class="text-input" name="password" />
 						<input type="text" placeholder="email" class="text-input" name="email" />
 						<input type="text" placeholder="first name" class="text-input" name="firstname" />
+						<input type="text" placeholder="last name" class="text-input" name="lastname" />
 						<input type="submit" style="height: 35px; width: 85px;" value="submit" />
 					</form>
 				</div>

@@ -1,6 +1,6 @@
 	<head>
 		<link href="style.css" rel="stylesheet" />
-		<title>early release</title>
+		<title>ChatBoxer (beta)</title>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Archivo+Narrow:400,700" rel="stylesheet" type="text/css" />
 		<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>

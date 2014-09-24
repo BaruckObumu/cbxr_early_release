@@ -2,12 +2,12 @@ body{
 height: 100%;
 margin: 0;
 padding: 0;
-background-image: url('images/park.jpg');
+background-color: #efefef;
 }
 
 #header-wrapper{
 height: 50px;
-background-color: #3E5AAF;
+background-color: #9494FF;
 padding: 0;
 margin: 0;
 border-bottom: 2px solid #000;
@@ -25,7 +25,7 @@ color: black;
 }
 
 .blue{
-color: #3E5AAF;
+color: #9494FF;
 }
 
 .smaller{
@@ -35,19 +35,19 @@ font-family: 'Rambla', Arial;
 
 #main-cont{
 width: 1010px;
-height: 480px;
+height: 440px;
 box-shadow: 0px 16px 32px rgba(0,0,0,.7);
 overflow: hidden;
 margin: 0 auto;
 border-radius: 5px;
-border: 7px solid #fff;
-background-color: #3E5AAF;
+border: 10px solid #fff;
+background-color: #9494FF;
 }
 
 #info{
 width: 420px;
 background-color: #fff;
-height: 480px;
+height: 440px;
 float:left;
 }
 
@@ -60,7 +60,7 @@ float: right;
 width: 380px;
 margin-left: 30px;
 background-color: #fff;
-height: 320px;
+height: 270px;
 margin-top: 20px;
 }
 
@@ -87,14 +87,14 @@ font-size: 30px;
 padding: 5px;
 background-color: #fff;
 text-shadow: inset 5px 5px 5px #888;
-color: ##3E5AAF;
+color: #9494FF;
 text-decoration: none;
 -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;transition: all 0.2s ease;
 background: linear-gradient(top,  #888 0%, #888 100%);
 }
 
 .button:hover{
-background-color: #3E5AAF;
+background-color: #9494FF;
 color: #fff;
 }
 
@@ -106,6 +106,6 @@ padding: 0;
 #footer{
 width: 100%;
 height: 260px;
-margin-top: 200px;
-background-image: url('images/texture.jpg');
+margin-top: 175px;
+background-image: url('texture.jpg');
 }
