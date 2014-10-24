@@ -1,5 +1,4 @@
 body{
-height: 100%;
 margin: 0;
 padding: 0;
 background-image: url('images/park.jpg');
@@ -34,9 +33,10 @@ font-family: 'Rambla', Arial;
 }
 
 #main-cont{
-width: 1010px;
+width: 85%;
 height: 480px;
 box-shadow: 0px 16px 32px rgba(0,0,0,.7);
+max-width: 1010px;
 overflow: hidden;
 margin: 0 auto;
 border-radius: 5px;
@@ -45,19 +45,19 @@ background-color: #3E5AAF;
 }
 
 #info{
-width: 420px;
+width: 40%;
 background-color: #fff;
 height: 480px;
 float:left;
 }
 
 #para{
-width:580px;
+width: 60%;
 float: right;
 }
 
 .inputs{
-width: 380px;
+width: 90%;
 margin-left: 30px;
 background-color: #fff;
 height: 320px;
@@ -66,7 +66,7 @@ margin-top: 20px;
 
 .text-input{
 margin-top: 5px;
-width: 340px;
+width: 90%;
 height: 30px;
 margin-bottom: 15px;
 }
@@ -87,15 +87,15 @@ font-size: 30px;
 padding: 5px;
 background-color: #fff;
 text-shadow: inset 5px 5px 5px #888;
-color: ##3E5AAF;
+color: #3E5AAF;
 text-decoration: none;
 -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;transition: all 0.2s ease;
 background: linear-gradient(top,  #888 0%, #888 100%);
 }
 
 .button:hover{
-background-color: #3E5AAF;
-color: #fff;
+background-color: none;
+color: #000;
 }
 
 form{
